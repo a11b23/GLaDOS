@@ -26,6 +26,6 @@ jobs:
         run: |
           python3 glados.py
         env: 
-          GLADOS_COOKIE: "${{ secrets.GLADOS_COOKIE }}"
-          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
+          GLADOS_COOKIE: "${{ secrets.A8 }}"
+          PUSHPLUS_TOKEN: ${{ secrets.TOKEN }}
       - uses: gautamkrishnar/keepalive-workflow@master  
